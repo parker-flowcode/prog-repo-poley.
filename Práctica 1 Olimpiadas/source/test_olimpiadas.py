@@ -1,4 +1,7 @@
 from olimpiadas import * 
+from pathlib import Path
+
+RUTA_ATLETAS = Path(__file__).parent.parent / 'data' / 'atletas.txt'
 
 def test_lee_fichero(registros):
     print()
@@ -11,5 +14,17 @@ def test_lee_fichero(registros):
 
 if __name__=="__main__":
     print("Proyecto olimpiadas")
-    registros=leer_fichero('./data/atletas.txt')
+    registros=leer_fichero(RUTA_ATLETAS)
     test_lee_fichero(registros)
+
+    print(edad_media(registros))
+
+    print(num_atletas_por_pais(registros))
+
+    print(nombre_atletas_por_pais(registros))
+
+    print(atleta_mayor_peso(registros))
+
+    print(pais_mayor_peso_medio(registros))
+
+    print(metodozip(registros))
