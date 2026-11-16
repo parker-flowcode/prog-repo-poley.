@@ -1,0 +1,11 @@
+nombre;rey_atacante;rey_atacado;gana_atacante;muertes_principales;comandantes_atacantes;comandantes_atacados;region;num_atacantes;num_atacados
+Battle of Torrhen's Square;Robb Stark;Greyjoy;win;0;Rodrik Cassel, Cley Cerwyn;Dagmer Cleftjaw;The North;244;900
+Battle of the Green Fork;Tywin Lannister;Robb Stark;win;1;Tywin Lannister, Gregor Clegane, Kevan Lannister;Roose Bolton, Wylis Manderly;The Riverlands;18000;16000
+Whispering Wood;Robb Stark;Jaime Lannister;win;1;Robb Stark, Brynden Tully;Jaime Lannister;The Riverlands;6000;3000
+Battle of Blackwater;Joffrey Baratheon;Stannis Baratheon;win;1;Tyrion Lannister, Sandor Clegane, Mace Tyrell;Stannis Baratheon, Davos Seaworth;The Crownlands;20000;21000
+Siege of Winterfell;Greyjoy;Robb Stark;loss;0;Dagmer Cleftjaw;Bran Stark, Rodrik Cassel;The North;500;2000
+Battle of Castle Black;Mance Rayder;Stannis Baratheon;loss;1;Mance Rayder, Tormund Giantsbane;Stannis Baratheon, Jon Snow;The North;100000;1500
+Battle of Deepwood Motte;Stannis Baratheon;Greyjoy;win;0;Stannis Baratheon;Asha Greyjoy;The Iron Islands;3000;800
+Sack of Harrenhal;Robb Stark;Joffrey Baratheon;win;0;Roose Bolton;Gregor Clegane;The Riverlands;5000;3000
+Battle of Dragonstone;Stannis Baratheon;Joffrey Baratheon;win;0;Stannis Baratheon, Davos Seaworth;;Dragonstone;4000;
+Skirmish at the Twins;Walder Frey;Robb Stark;loss;0;;Brynden Tully;The Riverlands;;1200
