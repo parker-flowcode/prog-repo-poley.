@@ -1,0 +1,27 @@
+PRUEBAS REALIZADAS - Tres en raya TCP
+======================================
+
+1. Cómo ejecutar el proyecto
+----------------------------
+1) Abrir una terminal en la carpeta Tema1-TresEnRayaTCP y ejecutar:
+   python servidor.py
+   (El servidor escucha en el puerto 50505 y comienza con la ficha 'X').
+
+2) Abrir una segunda terminal en la misma carpeta y ejecutar:
+   python cliente.py
+   (El cliente se conecta a 127.0.0.1:50505 y juega con la ficha 'O').
+   Nota: Si se juega desde dos ordenadores distintos, cambiar HOST en cliente.py
+   por la IPv4 local del equipo que ejecuta servidor.py.
+
+2. Casos de prueba comprobados
+------------------------------
+- Conexión TCP correcta entre servidor.py y cliente.py.
+- Primer turno asignado al servidor ('X') y alternancia de turnos.
+- Validación de entrada sin perder el turno:
+  * Formato incorrecto (ej. "abc").
+  * Coordenadas fuera del rango 1-3 (ej. "0 1", "4 2").
+  * Casilla ya ocupada.
+- Detección de victoria horizontal, vertical y diagonal.
+- Detección de empate al llenarse las 9 casillas sin ganador.
+- Finalización limpia de ambos procesos (servidor y cliente) al terminar la
+  partida, sin quedarse bloqueados esperando en recv().
